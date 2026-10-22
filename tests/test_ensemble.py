@@ -4,7 +4,7 @@ import pytest
 
 from kp_classifier.data.dataset import encode_split
 from kp_classifier.data.tokenizer import Tokenizer
-from kp_classifier.ensemble import apply_temperature, ensemble_proba, fit_temperature, member_proba
+from kp_classifier.ensemble import apply_temperature, ensemble_proba, fit_temperature, member_proba, predict_any
 from kp_classifier.models.baseline import build_pipeline
 from kp_classifier.train import save_model, train_model
 
@@ -69,3 +69,10 @@ def test_ensemble_mixes_sklearn_and_torch(tmp_path):
     assert avg.shape == (len(df), 3)
     assert np.allclose(avg, (p_lr + p_nn) / 2)
     assert len(members) == 2
+    import yaml
+    (tmp_path / "ens").mkdir()
+    (tmp_path / "ens" / "ensemble.yaml").write_text(
+        yaml.safe_dump({"members": ["lr", "nn"], "temperature": 0.5}), encoding="utf-8")
+    p_ens = predict_any(tmp_path / "ens", df)
+    assert np.allclose(p_ens, apply_temperature(avg, 0.5))
+    assert np.allclose(predict_any(tmp_path / "lr", df), p_lr)

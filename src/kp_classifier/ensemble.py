@@ -28,6 +28,18 @@ def member_proba(model_dir, df, device="cpu"):
     return predict_proba(model, loader, device)
 
 
+def predict_any(model_dir, df, device="cpu"):
+    model_dir = Path(model_dir)
+    spec_path = model_dir / "ensemble.yaml"
+    if spec_path.exists():
+        with open(spec_path, encoding="utf-8") as f:
+            spec = yaml.safe_load(f)
+        members = [model_dir.parent / m for m in spec["members"]]
+        proba, _ = ensemble_proba(members, df, device)
+        return apply_temperature(proba, spec.get("temperature", 1.0))
+    return member_proba(model_dir, df, device)
+
+
 def ensemble_proba(model_dirs, df, device="cpu"):
     probas = [member_proba(d, df, device) for d in model_dirs]
     return np.mean(probas, axis=0), probas
