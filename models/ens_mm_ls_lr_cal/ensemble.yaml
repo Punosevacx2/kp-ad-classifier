@@ -1,0 +1,6 @@
+members:
+- maxmean_ls01_s42
+- maxmean_ls01_s1
+- maxmean_ls01_s2
+- baseline_tfidf
+temperature: 0.5368522841139981

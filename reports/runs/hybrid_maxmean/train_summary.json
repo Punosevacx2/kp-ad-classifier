@@ -1,0 +1,9 @@
+{
+  "best_epoch": 9,
+  "epochs_trained": 14,
+  "word_vocab_size": 9482,
+  "char_vocab_size": 41,
+  "n_parameters": 1759274,
+  "device": "mps",
+  "train_seconds": 73.10000000000001
+}

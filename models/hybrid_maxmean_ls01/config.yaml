@@ -1,0 +1,46 @@
+name: hybrid_maxmean_ls01
+seed: 42
+tokenizer:
+  min_word_freq: 2
+  min_char_freq: 5
+  max_words: 20
+  max_chars: 60
+model:
+  use_words: true
+  use_chars: true
+  word_embedding_dim: 128
+  word_kernel_sizes:
+  - 1
+  - 2
+  - 3
+  word_filters: 128
+  char_embedding_dim: 32
+  char_kernel_sizes:
+  - 3
+  - 4
+  - 5
+  char_filters: 128
+  embedding_dropout: 0.1
+  word_dropout: 0.1
+  hidden_dim: 256
+  dropout: 0.5
+  hidden_dropout: 0.3
+  pooling: max_mean
+training:
+  batch_size: 128
+  max_epochs: 30
+  learning_rate: 0.002
+  weight_decay: 0.0001
+  grad_clip: 1.0
+  label_smoothing: 0.1
+  early_stopping_patience: 5
+  lr_patience: 2
+  lr_factor: 0.5
+  device: auto
+best_epoch: 28
+epochs_trained: 30
+word_vocab_size: 9482
+char_vocab_size: 41
+n_parameters: 1759274
+device: mps
+train_seconds: 155.59999999999997

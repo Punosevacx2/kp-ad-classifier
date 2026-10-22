@@ -1,0 +1,52 @@
+[
+  {
+    "index": 0,
+    "group_id": 232,
+    "group_name": "Placevi i zemljište"
+  },
+  {
+    "index": 1,
+    "group_id": 405,
+    "group_name": "Kreveti i dušeci"
+  },
+  {
+    "index": 2,
+    "group_id": 489,
+    "group_name": "Apple iPhone"
+  },
+  {
+    "index": 3,
+    "group_id": 589,
+    "group_name": "Sličice i albumi"
+  },
+  {
+    "index": 4,
+    "group_id": 769,
+    "group_name": "Upaljači, tabakere i pljoske"
+  },
+  {
+    "index": 5,
+    "group_id": 973,
+    "group_name": "Električne brusilice"
+  },
+  {
+    "index": 6,
+    "group_id": 1142,
+    "group_name": "Plišane igračke"
+  },
+  {
+    "index": 7,
+    "group_id": 1277,
+    "group_name": "Motokultivatori | Delovi i oprema"
+  },
+  {
+    "index": 8,
+    "group_id": 2173,
+    "group_name": "Samsung | Futrole, maske i folije"
+  },
+  {
+    "index": 9,
+    "group_id": 2663,
+    "group_name": "Roštilji, grilovi i friteze"
+  }
+]

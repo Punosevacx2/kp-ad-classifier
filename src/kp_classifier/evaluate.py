@@ -36,7 +36,8 @@ def proba_columns(n_classes):
 
 
 def build_predictions_frame(df, proba):
-    proba = np.asarray(proba, dtype=float)
+    proba = np.asarray(proba, dtype=np.float64)
+    proba = proba / proba.sum(axis=1, keepdims=True)
     out = df[["name", "text", "label"]].reset_index(drop=True).copy()
     out["pred"] = proba.argmax(axis=1)
     out["confidence"] = proba.max(axis=1)
@@ -118,8 +119,10 @@ def compute_metrics(y_true, y_pred, names, proba=None):
             for name, p, r, f, s in zip(names, precision, recall, f1, support)
         },
     }
-    if proba is not None:
-        metrics["log_loss"] = float(log_loss(y_true, np.clip(proba, 1e-12, 1), labels=labels))
+    if proba is not None:        
+        clipped = np.clip(proba, 1e-12, 1)
+        clipped = clipped / clipped.sum(axis=1, keepdims=True)
+        metrics["log_loss"] = float(log_loss(y_true, clipped, labels=labels))
         metrics["top2_accuracy"] = top_k_accuracy(y_true, proba, 2)
         metrics["ece"] = expected_calibration_error(y_true, proba)
     return metrics
