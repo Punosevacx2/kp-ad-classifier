@@ -1,0 +1,139 @@
+{
+  "n": 4150,
+  "accuracy": 0.9915662650602409,
+  "macro_f1": 0.9912152512513532,
+  "weighted_f1": 0.9915963257871744,
+  "macro_precision": 0.9913729220977615,
+  "macro_recall": 0.991128619403718,
+  "errors": 35,
+  "per_class": {
+    "Placevi i zemljište": {
+      "precision": 1.0,
+      "recall": 0.9934497816593887,
+      "f1": 0.9967141292442497,
+      "support": 458
+    },
+    "Kreveti i dušeci": {
+      "precision": 0.991304347826087,
+      "recall": 0.9884393063583815,
+      "f1": 0.9898697539797395,
+      "support": 346
+    },
+    "Apple iPhone": {
+      "precision": 0.9978354978354979,
+      "recall": 0.9978354978354979,
+      "f1": 0.9978354978354979,
+      "support": 462
+    },
+    "Sličice i albumi": {
+      "precision": 0.9975247524752475,
+      "recall": 0.9829268292682927,
+      "f1": 0.9901719901719902,
+      "support": 410
+    },
+    "Upaljači, tabakere i pljoske": {
+      "precision": 0.9944444444444445,
+      "recall": 0.9862258953168044,
+      "f1": 0.9903181189488244,
+      "support": 363
+    },
+    "Električne brusilice": {
+      "precision": 0.9958419958419958,
+      "recall": 0.9937759336099585,
+      "f1": 0.9948078920041536,
+      "support": 482
+    },
+    "Plišane igračke": {
+      "precision": 0.9597989949748744,
+      "recall": 0.9896373056994818,
+      "f1": 0.9744897959183674,
+      "support": 386
+    },
+    "Motokultivatori | Delovi i oprema": {
+      "precision": 0.9803921568627451,
+      "recall": 0.9911894273127754,
+      "f1": 0.9857612267250822,
+      "support": 454
+    },
+    "Samsung | Futrole, maske i folije": {
+      "precision": 1.0,
+      "recall": 0.9979757085020243,
+      "f1": 0.9989868287740629,
+      "support": 494
+    },
+    "Roštilji, grilovi i friteze": {
+      "precision": 0.9965870307167235,
+      "recall": 0.9898305084745763,
+      "f1": 0.9931972789115646,
+      "support": 295
+    }
+  },
+  "log_loss": 0.038184289791189825,
+  "top2_accuracy": 0.9949397590361446,
+  "ece": 0.005769909367508331,
+  "model": "baseline_tfidf",
+  "split": "test",
+  "ci": {
+    "accuracy": [
+      0.9889096385542169,
+      0.9942168674698795
+    ],
+    "macro_f1": [
+      0.9882552973849239,
+      0.9939436658134385
+    ],
+    "n_boot": 1000,
+    "level": 0.95
+  },
+  "risk_coverage": {
+    "at_coverage": [
+      {
+        "coverage": 1.0,
+        "accuracy": 0.9915662650602409,
+        "threshold": 0.18592398508518573
+      },
+      {
+        "coverage": 0.99,
+        "accuracy": 0.9948892674616695,
+        "threshold": 0.5458406640053703
+      },
+      {
+        "coverage": 0.98,
+        "accuracy": 0.9977870666338825,
+        "threshold": 0.7581246863400413
+      },
+      {
+        "coverage": 0.95,
+        "accuracy": 0.9994927720010145,
+        "threshold": 0.9575235233850349
+      },
+      {
+        "coverage": 0.9,
+        "accuracy": 0.9997322623828648,
+        "threshold": 0.9934493094443603
+      },
+      {
+        "coverage": 0.8,
+        "accuracy": 1.0,
+        "threshold": 0.9992694900528837
+      }
+    ],
+    "for_target_accuracy": [
+      {
+        "target_accuracy": 0.99,
+        "coverage": 1.0,
+        "threshold": 0.18592398508518573
+      },
+      {
+        "target_accuracy": 0.995,
+        "coverage": 0.9884337349397591,
+        "threshold": 0.5990259925906651
+      },
+      {
+        "target_accuracy": 0.999,
+        "coverage": 0.9592771084337349,
+        "threshold": 0.9375522482412374
+      }
+    ]
+  }
+}

@@ -68,7 +68,7 @@
       "support": 295
     }
   },
-  "log_loss": 0.04503888815021079,
+  "log_loss": 0.045038888150745846,
   "top2_accuracy": 0.9944578313253012,
   "ece": 0.002394128355435539,
   "model": "baseline_tfidf",
@@ -90,17 +90,17 @@
       {
         "coverage": 1.0,
         "accuracy": 0.9865060240963855,
-        "threshold": 0.2094305450406276
+        "threshold": 0.20943054504062764
       },
       {
         "coverage": 0.99,
         "accuracy": 0.9926989535166707,
-        "threshold": 0.49311044423912553
+        "threshold": 0.4931104442391254
       },
       {
         "coverage": 0.98,
         "accuracy": 0.9960658962380132,
-        "threshold": 0.7324057325906992
+        "threshold": 0.7324057325906993
       },
       {
         "coverage": 0.95,
@@ -110,19 +110,19 @@
       {
         "coverage": 0.9,
         "accuracy": 1.0,
-        "threshold": 0.9936894274834918
+        "threshold": 0.9936894274834919
       },
       {
         "coverage": 0.8,
         "accuracy": 1.0,
-        "threshold": 0.9991466216484852
+        "threshold": 0.9991466216484853
       }
     ],
     "for_target_accuracy": [
       {
         "target_accuracy": 0.99,
         "coverage": 0.9942168674698795,
-        "threshold": 0.42193410153263083
+        "threshold": 0.4219341015326307
       },
       {
         "target_accuracy": 0.995,
@@ -132,7 +132,7 @@
       {
         "target_accuracy": 0.999,
         "coverage": 0.9453012048192772,
-        "threshold": 0.968950498252528
+        "threshold": 0.9689504982525278
       }
     ]
   }

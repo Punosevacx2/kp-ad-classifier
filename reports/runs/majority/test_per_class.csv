@@ -1,0 +1,11 @@
+,precision,recall,f1,support
+Placevi i zemljište,0.0,0.0,0.0,458
+Kreveti i dušeci,0.0,0.0,0.0,346
+Apple iPhone,0.0,0.0,0.0,462
+Sličice i albumi,0.0,0.0,0.0,410
+"Upaljači, tabakere i pljoske",0.0,0.0,0.0,363
+Električne brusilice,0.0,0.0,0.0,482
+Plišane igračke,0.0,0.0,0.0,386
+Motokultivatori | Delovi i oprema,0.0,0.0,0.0,454
+"Roštilji, grilovi i friteze",0.0,0.0,0.0,295
+"Samsung | Futrole, maske i folije",0.11903614457831325,1.0,0.2127476313522825,494
