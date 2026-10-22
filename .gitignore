@@ -13,3 +13,6 @@ models/**/*.pth
 *.egg-info/
 reports/runs/*/*.parquet
 models/**/*.joblib
+!models/maxmean_ls01_s42/model.pt
+!models/maxmean_ls01_s1/model.pt
+!models/maxmean_ls01_s2/model.pt
