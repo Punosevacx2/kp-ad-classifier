@@ -26,6 +26,7 @@ def raw_df():
         ("prodajem", 405, "Kreveti i dušeci"),
         ("Prodajem", 232, "Placevi i zemljište"),
         ("!!!", 489, "Apple iPhone"),
+        ("#ERROR!", 489, "Apple iPhone"),
     ]
     return pd.DataFrame(rows, columns=["name", "group_id", "group_name"])
 
@@ -38,6 +39,7 @@ def prepare(raw_df):
 
 def test_clean_removes_duplicates_conflicts_and_empty(raw_df):
     df, stats = clean(raw_df)
+    assert stats["invalid_rows"] == 1
     assert stats["empty_after_normalization"] == 1
     assert stats["conflict_texts"] == 1
     assert stats["conflict_rows"] == 2
@@ -45,6 +47,7 @@ def test_clean_removes_duplicates_conflicts_and_empty(raw_df):
     assert stats["clean_rows"] == 442
     assert df["text"].is_unique
     assert "prodajem" not in set(df["text"])
+    assert "error" not in set(df["text"])
 
 
 def test_label_map_sorted_by_group_id(raw_df):
@@ -105,3 +108,17 @@ def test_check_no_leakage_raises():
     b = pd.DataFrame({"text": ["y", "z"]})
     with pytest.raises(ValueError):
         check_no_leakage({"train": a, "test": b})
+
+
+def test_removing_row_from_one_class_does_not_change_other_classes(raw_df):
+    df, _ = prepare(raw_df)
+    full, _ = per_class_split(df, val_size=0.1, test_size=0.1, seed=42)
+
+    iphone_label = df.loc[df["group_id"] == 489, "label"].iloc[0]
+    dropped_index = df.index[df["label"] == iphone_label][0]
+    reduced, _ = per_class_split(df.drop(index=dropped_index), val_size=0.1, test_size=0.1, seed=42)
+
+    for name in full:
+        a = full[name][full[name]["label"] != iphone_label]
+        b = reduced[name][reduced[name]["label"] != iphone_label]
+        assert sorted(a["text"]) == sorted(b["text"])

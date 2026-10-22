@@ -13,6 +13,7 @@ PROJECT_ROOT = Path(__file__).resolve().parents[3]
 DEFAULT_INPUT = PROJECT_ROOT / "data" / "raw" / "ml_dataset.parquet"
 DEFAULT_OUTPUT_DIR = PROJECT_ROOT / "data" / "processed"
 SPLIT_NAMES = ["train", "val", "test"]
+SPREADSHEET_ERROR_RE = r"^\s*#(?:ERROR|VALUE|REF|NAME|N/A|DIV/0|NULL|NUM)[!?]?\s*$"
 
 
 def load_raw(path):
@@ -24,6 +25,10 @@ def clean(df):
     stats = {"raw_rows": len(df)}
 
     df = df.copy()
+    invalid = df["name"].astype(str).str.match(SPREADSHEET_ERROR_RE, case=False)
+    stats["invalid_rows"] = int(invalid.sum())
+    df = df[~invalid]
+
     df["text"] = df["name"].map(normalize_text)
     df = df.sort_values(["group_id", "text", "name"], kind="stable").reset_index(drop=True)
 
@@ -73,13 +78,13 @@ def exact_block_size(val_size, test_size):
 
 
 def per_class_split(df, val_size, test_size, seed, exact=False):
-    rng = np.random.default_rng(seed)
     block = exact_block_size(val_size, test_size) if exact else 1
     parts = {name: [] for name in SPLIT_NAMES}
     dropped = 0
 
     for label in sorted(df["label"].unique()):
         class_df = df[df["label"] == label]
+        rng = np.random.default_rng([seed, int(label)])
         order = rng.permutation(len(class_df))
         class_df = class_df.iloc[order]
 
@@ -175,7 +180,7 @@ def main():
         json.dump(stats, f, ensure_ascii=False, indent=2)
 
     print("Čišćenje:")
-    for key in ["raw_rows", "empty_after_normalization", "conflict_texts", "conflict_rows", "duplicate_rows", "clean_rows"]:
+    for key in ["raw_rows", "invalid_rows", "empty_after_normalization", "conflict_texts", "conflict_rows", "duplicate_rows", "clean_rows"]:
         print(f"  {key}: {stats[key]}")
     if args.exact:
         print(f"  dropped_for_exact_proportions: {dropped}")

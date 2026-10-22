@@ -12,7 +12,7 @@ char_ngram_range:
 - 5
 max_iter: 3000
 min_df: 2
-n_features: 87459
+n_features: 87036
 name: baseline_tfidf
 sublinear_tf: true
 top_features: 20
