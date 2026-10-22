@@ -1,0 +1,201 @@
+grupa,rang,osobina,tezina
+Placevi i zemljište,1,word:plac,19.801365464957556
+Placevi i zemljište,2,char:m2 ,9.13457481288992
+Placevi i zemljište,3,char:m2,8.982953053131764
+Placevi i zemljište,4,char:plac,7.548461564764746
+Placevi i zemljište,5,char: plac,7.548461564764746
+Placevi i zemljište,6,char:plac ,6.848900069062882
+Placevi i zemljište,7,char:lac ,6.753526469277817
+Placevi i zemljište,8,char:lac,6.27501446815531
+Placevi i zemljište,9,char:2 ,6.225779526161693
+Placevi i zemljište,10,char:pla,6.04411059191458
+Placevi i zemljište,11,char: pla,5.9974084203920714
+Placevi i zemljište,12,word:plac u,5.468759134022763
+Placevi i zemljište,13,word:zemljiste,5.0106764181081545
+Placevi i zemljište,14,word:u,4.7706574014800704
+Placevi i zemljište,15,word:ari,4.768840039133015
+Placevi i zemljište,16,char:ac ,4.700447349408435
+Placevi i zemljište,17,word:kosmaj,4.128050778835653
+Placevi i zemljište,18,word:imanje,3.7901352991658603
+Placevi i zemljište,19,char:c ,3.5665609977907855
+Placevi i zemljište,20,char:ac,3.549153703846159
+Kreveti i dušeci,1,word:krevet,11.723824311535527
+Kreveti i dušeci,2,word:dusek,8.519326486627797
+Kreveti i dušeci,3,word:ugaona,5.739557429471402
+Kreveti i dušeci,4,word:kauc,5.609709317663938
+Kreveti i dušeci,5,char:krev,5.5237341341363795
+Kreveti i dušeci,6,char: krev,5.52164522579749
+Kreveti i dušeci,7,char:revet,5.421417883484459
+Kreveti i dušeci,8,char:kreve,5.417618087776656
+Kreveti i dušeci,9,char:reve,5.416729076623718
+Kreveti i dušeci,10,char:rev,5.3864714526210795
+Kreveti i dušeci,11,char:evet,5.358365941763841
+Kreveti i dušeci,12,char:eve,5.134511516915994
+Kreveti i dušeci,13,char:0x,5.062180304771956
+Kreveti i dušeci,14,char:duse,5.042749659775169
+Kreveti i dušeci,15,char:dus,4.787599525739125
+Kreveti i dušeci,16,char: kre,4.706033835393022
+Kreveti i dušeci,17,char:vet,4.670104077893008
+Kreveti i dušeci,18,char:kre,4.602647163823177
+Kreveti i dušeci,19,char: duse,4.580321714573985
+Kreveti i dušeci,20,word:vuna,4.487305965454693
+Apple iPhone,1,word:iphone,13.541016460054784
+Apple iPhone,2,char: ip,7.507566302838884
+Apple iPhone,3,word:pro,6.803256767180738
+Apple iPhone,4,word:apple,6.762492230360263
+Apple iPhone,5,char:iph,6.7587008918441205
+Apple iPhone,6,char: iph,6.752596238399116
+Apple iPhone,7,char:ipho,6.739565904193787
+Apple iPhone,8,char: ipho,6.733457095524381
+Apple iPhone,9,char:iphon,6.72764509549145
+Apple iPhone,10,char:phon,6.701289210697758
+Apple iPhone,11,char:phone,6.638153115017352
+Apple iPhone,12,char:pho,6.6339930488145855
+Apple iPhone,13,char:hone,6.630607056540462
+Apple iPhone,14,char:ph,6.546249332288404
+Apple iPhone,15,char:hone ,6.5338119256510945
+Apple iPhone,16,char:hon,6.327925020109351
+Apple iPhone,17,char:ip,6.278139171143217
+Apple iPhone,18,word:128gb,6.153930841859908
+Apple iPhone,19,char:one,6.036545613398898
+Apple iPhone,20,char:gb ,5.961599254856227
+Sličice i albumi,1,word:album,7.387151900802144
+Sličice i albumi,2,word:kartica,6.729391566902282
+Sličice i albumi,3,word:nalepnica,6.404400222546066
+Sličice i albumi,4,word:panini,5.920025533409353
+Sličice i albumi,5,word:slicice,5.727906331129566
+Sličice i albumi,6,word:svet,4.7348941550360495
+Sličice i albumi,7,word:slicica,4.422406606790348
+Sličice i albumi,8,char:kart,4.395434907906627
+Sličice i albumi,9,word:euro,4.27535785005308
+Sličice i albumi,10,word:kesica,4.2046522942555535
+Sličice i albumi,11,char: 20,4.167428647595074
+Sličice i albumi,12,word:pokemon,4.152644142685485
+Sličice i albumi,13,char: kart,4.113606312289377
+Sličice i albumi,14,word:nba,4.078096976996906
+Sličice i albumi,15,word:4gb,3.975701044133277
+Sličice i albumi,16,char:sli,3.9149420303560176
+Sličice i albumi,17,char:artic,3.9068288948017504
+Sličice i albumi,18,char:karti,3.9007052936818134
+Sličice i albumi,19,word:90,3.899694262503381
+Sličice i albumi,20,char:rtic,3.8995222104145872
+"Upaljači, tabakere i pljoske",1,word:upaljac,10.813111975822963
+"Upaljači, tabakere i pljoske",2,word:mrvilica,9.690522913029248
+"Upaljači, tabakere i pljoske",3,word:lula,8.861917880582716
+"Upaljači, tabakere i pljoske",4,word:zippo,7.382375064112395
+"Upaljači, tabakere i pljoske",5,word:punilica,7.010116626266542
+"Upaljači, tabakere i pljoske",6,word:pljoska,6.22059186539748
+"Upaljači, tabakere i pljoske",7,word:masinica,5.962373146885849
+"Upaljači, tabakere i pljoske",8,word:iqos,5.8992973864321705
+"Upaljači, tabakere i pljoske",9,word:tabakera,5.521049648197544
+"Upaljači, tabakere i pljoske",10,word:lighter,5.100288711393242
+"Upaljači, tabakere i pljoske",11,word:lule,4.945750891357429
+"Upaljači, tabakere i pljoske",12,char: lul,4.874357112358827
+"Upaljači, tabakere i pljoske",13,char:lul,4.856525763490443
+"Upaljači, tabakere i pljoske",14,char: upa,4.671522902708687
+"Upaljači, tabakere i pljoske",15,char: upal,4.474704131315383
+"Upaljači, tabakere i pljoske",16,char:upal,4.472328868623302
+"Upaljači, tabakere i pljoske",17,char:upalj,4.378313372307371
+"Upaljači, tabakere i pljoske",18,char:upa,4.377514804520399
+"Upaljači, tabakere i pljoske",19,char:aljac,4.298534539705779
+"Upaljači, tabakere i pljoske",20,word:masinica za,4.274843486202573
+Električne brusilice,1,word:brusilica,12.497967500203888
+Električne brusilice,2,word:makita,6.308612564131512
+Električne brusilice,3,char:brus,6.256432635458984
+Električne brusilice,4,char: brus,6.25457502817586
+Električne brusilice,5,char:bru,6.057318552578967
+Električne brusilice,6,char: bru,6.0564373276085925
+Električne brusilice,7,char:usil,5.660379824573973
+Električne brusilice,8,char:usili,5.644761199563389
+Električne brusilice,9,char:silic,5.610529969705098
+Električne brusilice,10,char:usi,5.566318037064173
+Električne brusilice,11,char:rus,5.565223969406588
+Električne brusilice,12,word:alat,5.381691774735635
+Električne brusilice,13,char:brusi,5.3686677487025865
+Električne brusilice,14,char:rusil,5.362096109030845
+Električne brusilice,15,char:sili,5.294858753733189
+Električne brusilice,16,char:rusi,5.254726616296085
+Električne brusilice,17,char:w ,5.111391489000462
+Električne brusilice,18,word:tocilo,4.876919720685967
+Električne brusilice,19,char:sil,4.650283690783526
+Električne brusilice,20,word:flex,4.609665136359641
+Plišane igračke,1,word:panda,7.392707320714517
+Plišane igračke,2,char:cm ,6.63108194146596
+Plišane igračke,3,char:cm,6.400012228689175
+Plišane igračke,4,word:igracka,5.0127797033824395
+Plišane igračke,5,word:plisana igracka,4.895091628447543
+Plišane igračke,6,word:plisani,4.774839279008858
+Plišane igračke,7,word:meda,4.415407456813564
+Plišane igračke,8,word:plush,4.220841097632449
+Plišane igračke,9,word:plisana,4.101446673557042
+Plišane igračke,10,char:plis,4.084730294607661
+Plišane igračke,11,char: plis,4.084730294607661
+Plišane igračke,12,word:nici,3.6001405604121515
+Plišane igračke,13,char:lis,3.587646155684613
+Plišane igračke,14,word:kuca,3.582865409046793
+Plišane igračke,15,char:lisan,3.5382086272355115
+Plišane igračke,16,word:maca,3.4789696164487003
+Plišane igračke,17,char:plisa,3.461621080630059
+Plišane igračke,18,word:zeka,3.4108657590319376
+Plišane igračke,19,char:isan,3.28011205358717
+Plišane igračke,20,word:princeza,3.224898299245648
+Motokultivatori | Delovi i oprema,1,word:imt,9.12182792793292
+Motokultivatori | Delovi i oprema,2,word:506,6.624152244221976
+Motokultivatori | Delovi i oprema,3,word:muta,6.00533732379712
+Motokultivatori | Delovi i oprema,4,word:imt 506,5.2620203673953405
+Motokultivatori | Delovi i oprema,5,word:leteci lezaj,4.940456996076121
+Motokultivatori | Delovi i oprema,6,word:kipor,4.614766936008172
+Motokultivatori | Delovi i oprema,7,word:semering,4.594920188978199
+Motokultivatori | Delovi i oprema,8,word:509,4.457248680611621
+Motokultivatori | Delovi i oprema,9,char: 50,4.386770891319109
+Motokultivatori | Delovi i oprema,10,word:vadilica,4.3406531871977005
+Motokultivatori | Delovi i oprema,11,word:honda,4.269698741797767
+Motokultivatori | Delovi i oprema,12,word:paljenje,4.256878592755549
+Motokultivatori | Delovi i oprema,13,word:labin,4.129742882759228
+Motokultivatori | Delovi i oprema,14,word:plug,4.047089458537995
+Motokultivatori | Delovi i oprema,15,word:leteci,4.031744639648815
+Motokultivatori | Delovi i oprema,16,char:50,4.019903420022786
+Motokultivatori | Delovi i oprema,17,char:imt,3.989662989931683
+Motokultivatori | Delovi i oprema,18,char: imt,3.989662989931683
+Motokultivatori | Delovi i oprema,19,char:mt,3.961906949300803
+Motokultivatori | Delovi i oprema,20,char:0 ,3.9009373040930173
+"Samsung | Futrole, maske i folije",1,word:samsung,11.194176477584675
+"Samsung | Futrole, maske i folije",2,word:za samsung,9.701730118694213
+"Samsung | Futrole, maske i folije",3,word:screen,6.795608690131213
+"Samsung | Futrole, maske i folije",4,word:maska,5.9706353692817995
+"Samsung | Futrole, maske i folije",5,char:g ,5.8514821208745005
+"Samsung | Futrole, maske i folije",6,word:screen protector,5.67199347070799
+"Samsung | Futrole, maske i folije",7,char: s,5.62440102298727
+"Samsung | Futrole, maske i folije",8,char:ng ,5.543205690827928
+"Samsung | Futrole, maske i folije",9,char:ams,5.334726739772094
+"Samsung | Futrole, maske i folije",10,char:ms,5.250391039026516
+"Samsung | Futrole, maske i folije",11,char:sung ,5.234741772632277
+"Samsung | Futrole, maske i folije",12,char: sam,5.203401555251948
+"Samsung | Futrole, maske i folije",13,char:sam,5.2023459146463855
+"Samsung | Futrole, maske i folije",14,char:ung ,5.162328117404233
+"Samsung | Futrole, maske i folije",15,char:sung,5.121838387562756
+"Samsung | Futrole, maske i folije",16,char:samsu,5.120729577378031
+"Samsung | Futrole, maske i folije",17,char:sams,5.120729577378031
+"Samsung | Futrole, maske i folije",18,char:amsu,5.120729577378031
+"Samsung | Futrole, maske i folije",19,char:msu,5.120729577378031
+"Samsung | Futrole, maske i folije",20,char:amsun,5.119215101495215
+"Roštilji, grilovi i friteze",1,word:friteza,7.734319102952734
+"Roštilji, grilovi i friteze",2,word:pekac,6.5567398191173
+"Roštilji, grilovi i friteze",3,word:rostilj,6.47257143259006
+"Roštilji, grilovi i friteze",4,word:grill,6.216161517980434
+"Roštilji, grilovi i friteze",5,word:oven,5.508138846020918
+"Roštilji, grilovi i friteze",6,word:gril,5.412932743937668
+"Roštilji, grilovi i friteze",7,word:fryer,5.157971543090846
+"Roštilji, grilovi i friteze",8,word:tefal,5.070944476177556
+"Roštilji, grilovi i friteze",9,char:l ,4.774357288044216
+"Roštilji, grilovi i friteze",10,char:fr,4.590800184377032
+"Roštilji, grilovi i friteze",11,char:ri,4.318879376242965
+"Roštilji, grilovi i friteze",12,char:gril,4.272586915907003
+"Roštilji, grilovi i friteze",13,word:upaljac plin,4.124998542995556
+"Roštilji, grilovi i friteze",14,word:pec,4.119667204115892
+"Roštilji, grilovi i friteze",15,char: fr,3.853483730648539
+"Roštilji, grilovi i friteze",16,char:ril,3.8208935931859678
+"Roštilji, grilovi i friteze",17,char: gril,3.757760515213464
+"Roštilji, grilovi i friteze",18,word:black,3.6830098451990128
+"Roštilji, grilovi i friteze",19,word:aparat za,3.6313778294802774
+"Roštilji, grilovi i friteze",20,char:gri,3.488443724271753

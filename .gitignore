@@ -12,3 +12,4 @@ models/**/*.pt
 models/**/*.pth
 *.egg-info/
 reports/runs/*/*.parquet
+models/**/*.joblib

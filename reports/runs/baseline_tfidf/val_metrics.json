@@ -1,0 +1,76 @@
+{
+  "n": 4150,
+  "accuracy": 0.9898795180722891,
+  "macro_f1": 0.9894701130658824,
+  "weighted_f1": 0.989899348054975,
+  "macro_precision": 0.9895562410398726,
+  "macro_recall": 0.9894356517640187,
+  "errors": 42,
+  "per_class": {
+    "Placevi i zemljište": {
+      "precision": 1.0,
+      "recall": 0.9847161572052402,
+      "f1": 0.9922992299229924,
+      "support": 458
+    },
+    "Kreveti i dušeci": {
+      "precision": 1.0,
+      "recall": 0.9855491329479769,
+      "f1": 0.992721979621543,
+      "support": 346
+    },
+    "Apple iPhone": {
+      "precision": 1.0,
+      "recall": 0.9978354978354979,
+      "f1": 0.9989165763813651,
+      "support": 462
+    },
+    "Sličice i albumi": {
+      "precision": 0.9779951100244498,
+      "recall": 0.975609756097561,
+      "f1": 0.9768009768009768,
+      "support": 410
+    },
+    "Upaljači, tabakere i pljoske": {
+      "precision": 0.9834710743801653,
+      "recall": 0.9834710743801653,
+      "f1": 0.9834710743801653,
+      "support": 363
+    },
+    "Električne brusilice": {
+      "precision": 0.987603305785124,
+      "recall": 0.991701244813278,
+      "f1": 0.989648033126294,
+      "support": 482
+    },
+    "Plišane igračke": {
+      "precision": 0.9620253164556962,
+      "recall": 0.9844559585492227,
+      "f1": 0.9731113956466069,
+      "support": 386
+    },
+    "Motokultivatori | Delovi i oprema": {
+      "precision": 0.9912472647702407,
+      "recall": 0.9977973568281938,
+      "f1": 0.9945115257958288,
+      "support": 454
+    },
+    "Samsung | Futrole, maske i folije": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 494
+    },
+    "Roštilji, grilovi i friteze": {
+      "precision": 0.9932203389830508,
+      "recall": 0.9932203389830508,
+      "f1": 0.9932203389830508,
+      "support": 295
+    }
+  },
+  "log_loss": 0.03365581922252357,
+  "top2_accuracy": 0.996144578313253,
+  "ece": 0.006145848681346577,
+  "model": "baseline_tfidf",
+  "split": "val"
+}

@@ -1,0 +1,21 @@
+C_grid:
+- 1.0
+- 3.0
+- 10.0
+- 30.0
+- 100.0
+- 300.0
+C_tolerance: 0.0005
+best_C: 100.0
+char_ngram_range:
+- 2
+- 5
+max_iter: 3000
+min_df: 2
+n_features: 87459
+name: baseline_tfidf
+sublinear_tf: true
+top_features: 20
+word_ngram_range:
+- 1
+- 2

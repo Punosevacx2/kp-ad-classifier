@@ -1,0 +1,76 @@
+{
+  "n": 4150,
+  "accuracy": 0.11903614457831325,
+  "macro_f1": 0.02127476313522825,
+  "weighted_f1": 0.02532465780434399,
+  "macro_precision": 0.011903614457831325,
+  "macro_recall": 0.1,
+  "errors": 3656,
+  "per_class": {
+    "Placevi i zemljište": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 458
+    },
+    "Kreveti i dušeci": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 346
+    },
+    "Apple iPhone": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 462
+    },
+    "Sličice i albumi": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 410
+    },
+    "Upaljači, tabakere i pljoske": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 363
+    },
+    "Električne brusilice": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 482
+    },
+    "Plišane igračke": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 386
+    },
+    "Motokultivatori | Delovi i oprema": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 454
+    },
+    "Samsung | Futrole, maske i folije": {
+      "precision": 0.11903614457831325,
+      "recall": 1.0,
+      "f1": 0.2127476313522825,
+      "support": 494
+    },
+    "Roštilji, grilovi i friteze": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 295
+    }
+  },
+  "log_loss": 2.2908772496180374,
+  "top2_accuracy": 0.23518072289156627,
+  "ece": 0.0001613441084762357,
+  "model": "majority",
+  "split": "val"
+}
